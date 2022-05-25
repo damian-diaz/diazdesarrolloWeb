@@ -98,3 +98,15 @@ li:hover{
     color: #fff;
 }
 
+.galeria-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+
+}
+.galeria-item{
+    width: 50px;
+
+}
+
+
