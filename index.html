@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./css/estilo.css">
     <title>Panaderia y Pasteleria INK</title>
     
@@ -23,8 +24,17 @@
             </nav>
     </header> 
     <main>
+        <section> 
+            <br>
+            <br>
+            <p>Nuestro Emprendimiento crecio con mucho amor y pasion, somos una empresa familiar que nos dedicamos a la Gastronomia y no especializamos
+            en la rama de la Panaderia tradicional y la Pasteleria profesional.</p>
+            <p>Arrancamos con una pequeña panaderia de barrio en el año 2006. Mi mama se encargaba del sector de la panaderia,
+            mi papa en el sector de administrativo(en la compra de la mercaderia, la caja,etc)</p>
+            <p>Basada mi inspiracion familiar, me dedique a estudiar en el istituto IAG, para desarrollarme como Pastelero Porfesional.</p>
+        </section>
         <section>
-            <h2>sobre mi</h2>
+            <h2>Sobre mi</h2>
             <article>
                 <p>Hola!! soy Ignacio Kresser,un apasionado de la panaderia y la pasteleria, 
                 tuve la suerte de estudiar y desarrollarme profesionalmente en el IAG (Instituto Argentino de Gastronomia), Ademas de conocer a grandes profesionales de las pasteria como a OSVALDO GROOS
@@ -33,25 +43,41 @@
                 Hoy con toda la experiencia obtenida, abri mi propio instituto, en el cual ofrezco distintos cursos y capacitaciones para todas las personas que quieran aprender, crecer y desarrollarse en este
                 mundo que es la panaderia y la pasteleria.
                 </p>
-                <img src="./galeria/imagen/panadero.jpg" alt="foto de perfil">
             </article>
         </section>
-        <section>
-            <article>
-                <h2>Nuestras Propuestas</h2>
-                <p>Ofrecemos distintos tipos de servicios para cubrir todas necesidades que nuestros clientes necesiten</p>
-                <ul>
-                    <ol><a href="./page/cursos.html">Cursos y Seminarios</a></ol>
-                    <ol><a href="./page/eventos.html">Eventos</a></ol>
-                    <ol><a href="./page/galeria.html">Galerias</a></ol>
-                </ul>
-            </article>
-        </section>
+        <!--carrusel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./galeria/imagen/selvanegra.jpg" class="d-block w-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./galeria/imagen/panadero.jpg" class="d-block w-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./galeria/imagen/masas.jpg" class="d-block w-50" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!--fin del carrusel-->
     </main>
     <footer>
-        <a href="tel:+1165594349"><h3><img src="./galeria/imagen/whas.png" alt="imagen de whastAspp"></h3></a>
         <h3>todos los derechos se encuentra sujetos en mi</h3>
         <h3>fotos de contactos</h3>
     </footer>
+    <script src="./bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
 </body>
 </html>

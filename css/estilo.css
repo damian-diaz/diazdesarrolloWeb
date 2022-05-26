@@ -3,15 +3,31 @@
     padding: 0;
     font-family: sans-serif;
     line-height: 1.5;
+    box-sizing: border-box;
 }  
 header{
     display: flex;
-    height: 80px;
-    background-color: antiquewhite;
+    height: 110px;
+    background-color:rgb(102, 51, 0);
     justify-content: space-between;
     align-items: center;
     padding: 30px;
 }
+main{
+    background-image: url("../galeria/logo/fondo3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #cccc;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(102, 51, 0);
+    padding: 30px;
+}
+
 .logo{
     height: 100px;
     border-radius: 20%;
@@ -20,7 +36,7 @@ header{
 .cabecera{
     display: flex;
     align-items: center;
-    color:aqua;
+    color:rgb(31, 31, 20);
 }
 a{
     text-decoration: none;
@@ -31,7 +47,7 @@ a{
 }
 li{
     display: inline-block;
-    background: blue;
+    background:rgb(204, 143, 51);
     border-radius: 30px;
     padding: 10px 30px;
     text-decoration: none;
@@ -40,7 +56,7 @@ li{
     font-weight: bold;
 }
 li:hover{
-    background: green;
+    background:rgba(213, 213, 144);
 }
 .curso{
     display: flex;
@@ -50,6 +66,15 @@ li:hover{
 .curso{
     width: 100%;
     font-family: sans-serif;
+}
+.card{
+    border-radius: 4px;
+    width: 60%;
+    margin-right: 25%;
+}
+.foto{
+    border-radius: 4px;
+    width: 60%;
 }
 
 
@@ -97,16 +122,39 @@ li:hover{
     background: #2fb4cc;
     color: #fff;
 }
+/*GALERIA DE IMAGEN*/
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
-.galeria-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item{
     
-
 }
-.galeria-item{
-    width: 50px;
-
+img{
+    border-radius: 50%;
+    width: 60%;
+    margin-left: 25%;
 }
 
-
+/*FIN DE LA GALERIA*/
