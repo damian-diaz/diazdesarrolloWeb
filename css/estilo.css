@@ -58,6 +58,7 @@ li{
 li:hover{
     background:rgba(213, 213, 144);
 }
+/*Imagen de Curso*/
 .curso{
     display: flex;
     justify-content: center;
@@ -70,13 +71,7 @@ li:hover{
 .card{
     border-radius: 4px;
     width: 60%;
-    margin-right: 25%;
 }
-.foto{
-    border-radius: 4px;
-    width: 60%;
-}
-
 
 .opcion{
     width: 100%;
@@ -127,34 +122,35 @@ li:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+
 }
+
 
 .container2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 .container3{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 .container4{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 .item{
-    
+    align-items: center;
+    border: 3px solid rgba(0,0,0,0.4);
+    position: relative;
 }
-img{
-    border-radius: 50%;
-    width: 60%;
-    margin-left: 25%;
+.foto{
+    border-radius: 4px;
+    width: 250px;
+
 }
+
 
 /*FIN DE LA GALERIA*/
