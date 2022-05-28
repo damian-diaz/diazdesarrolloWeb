@@ -4,44 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <a href="../index.html" class="cabecera">
-            <img class="logo" src="../galeria/logo/logo.jpg" alt="logo del Emprendimiento">
-            <h1 class="titulo">Panaderia y Pasteleria INK</h1>
-        </a>
-            <nav class="menu">
-                <li class="solapa"><a href="../index.html">Inicio</a></li>
-                <li class="solapa"> <a href="./novedades.html">Novedades</a></li>
-                <li class="solapa"> <a href="./eventos.html">Eventos </a></li>
-                <li class="solapa"> <a href="./galeria.html">Galeria</a></li>
-                <li class="solapa"> <a href="./cursos.html">Cursos</a></li>
-            </nav>
+        <!--menu-->
+        <div class=" container-fluid">
+            <nav class="navbar navbar-expand-lg bg-light-container">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"> INK Panaderia y Pasteleria</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./cursos.html">Cursos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./preguntas.html">Preguntas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+        </div>
+            <!--fin del Menu-->
     </header>
+
     <main>
         <section>
-            <form>
-                <input type="name" placeholder="Nombre">
-                <input type="numero" placeholder="Telefono">
-                <input type="email" name="email" placeholder="email@mail.com">
-                <select name="se" id="">
-                    <option value="seleccion deseable"></option>
-                    <option value="Panaderia Inicial">Panderia Inicial</option>
-                    <option value="Panderia Avanzada"> Panaderia Avanzada</option>
-                    <option value="Pasteleria">Pasteleria</option>
-                    <option value="Especial Navidad">Especial Navidad</option>
-                </select>
-                <textarea name="ingrese consulta" id="" cols="30" rows="10"></textarea>
-                <input type="Enviar" value="Enviar">
-                <input type="Reseteo" value="">
-                
-            </form>
-            
+            <h2>Te estamos esperando, es tu oportunidad de aprender y crecer</h2>
         </section>
+        <section>
+            <h2>Anota, sumate y disfruta de este hermoso mundo y no te vas a arrepentir</h2>
+        </section>
+        <section>
+            <form>
+                <h2 class="contacto">Contacto</h2>
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <input type="text" name="Correo" placeholder="Correo">
+                <input type="text" name="Tefefono" placeholder="Telefono">
+                <select name="cursos" id="">
+                    <option value="Panaderia Inicial"> Panaderia Incial</option>
+                    <option value="Pasteleria Inicial">Pasteleria Inicial</option>
+                    <option value="La hora del Te">La Hora del Te</option>
+                    <option value="Macarons">Macarons</option>
+                </select>
+                <textarea name="mensaje" id="" cols="30" rows="6" placeholder="Escriba su consulta"></textarea> 
+                <input class="botones" type="submit" value="Enviar">
+                <input class="botones" type="reset" value="Reseteo">
+                
+            </form>           
+        </section>
+        <section class="antepie">
+            <h3 class="nombrepie">Panaderia y Pasteleria INK</h3>
+            <div class="pie1">
+                <h3 class="h6">Guemes 1045, San Miguel</h3>
+                <h3 class="h6">Tel: 11-6559-4349</h3>
+                <h3 class="h6">Horarios de atencion de 10AM a 20PM</h3>
+            </div>
+            <br>
+            </section>
     </main>
-
+    <footer>
+        <div class="fondo">
+        <figure class="text-center">
+            <blockquote class="blockquote">
+              <p>INK Panaderia y Pasteleria | Todos los derechos reservados @ 2022</p>
+            </blockquote>
+        </figure>
+        </div>  
+</footer>
+    <script src="../bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
 </body>
 </html>

@@ -4,25 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <a href="../index.html" class="cabecera">
-            <img class="logo" src="../galeria/logo/logo.jpg" alt="logo del Emprendimiento">
-            <h1 class="titulo">Panaderia y Pasteleria INK</h1>
-        </a>
-            <nav class="menu">
-                <li class="solapa"><a href="../index.html">Inicio</a></li>
-                <li class="solapa"><a href="./eventos.html">Eventos </a></li>
-                <li class="solapa"><a href="./galeria.html">Galeria</a></li>
-                <li class="solapa"><a href="./cursos.html">Cursos</a></li>
-                <li class="solapa"><a href="./contacto.html">Contacto</a></li>
-            </nav>
+        <!--menu-->
+        <div class=" container-fluid">
+            <nav class="navbar navbar-expand-lg bg-light-container">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"> INK Panaderia y Pasteleria</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./cursos.html">Cursos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+        </div>
+            <!--fin del Menu-->
     </header>
+
     <main>
-        <section>
+        <section class="preguntas">
             <article>
                 <h2>Dudas y Preguntas</h2>
                 <h2>¿Como son las clases?</h2>
@@ -37,13 +57,43 @@
                 <p>Es uno de los mas importantes a nivel Nacional</p>
             </article>
             <article>
+                <h2>Como es la metodologia</h2>
+                <p>La clase se divide en 2 partes</p>
+                <p>La primera 1/2 hora,se utliza para la teoria. La hora restante se utiliza para las practicas</p>
+            </article>
+            <article>
+                <h2>Si dejo, puedo retomar</h2>
+                <p>Obvio que si!!!!, el pago porel curso te permite que puedas retomar las clases durante todo el año</p>
+            </article>
+            <article>
+                <h2>Lo mas Importante</h2>
+                <p>Cda Alumno tiene su isla de trabajo, esto significa,que hay espacio para que cada alumno puede estar abocado 100% a la actividad</p>
+            </article>
+            <article>
                 <h2>Metodo de Pago</h2>
                 <p>Se puede abonar mediante trajeta de credito en 6 cuotas sin interes.</p>
                 <p>Con transferencia y tarjeta de Debito.</p>
                 <p>En efectivo, con un descuento del %5.</p>
             </article>    
         </section>
+        <section class="antepie">
+            <h3 class="nombrepie">Panaderia y Pasteleria INK</h3>
+            <div class="pie1">
+                <h3 class="h6">Guemes 1045, San Miguel</h3>
+                <h3 class="h6">Tel: 11-6559-4349</h3>
+                <h3 class="h6">Horarios de atencion de 10AM a 20PM</h3>
+            </div>
+        </section>
     </main>
-    
+    <footer>
+        <div class="fondo">
+        <figure class="text-center">
+            <blockquote class="blockquote">
+              <p>INK Panaderia y Pasteleria | Todos los derechos reservados @ 2022</p>
+            </blockquote>
+        </figure>
+        </div>  
+</footer>
+<script src="../bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
 </body>
 </html>

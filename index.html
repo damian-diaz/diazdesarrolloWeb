@@ -11,20 +11,39 @@
 </head>
 <body>
     <header>
-       <a href="./page/contacto.html" class="cabecera">
-            <img class="logo" src="./galeria/logo/logo.jpg" alt="logo del Emprendimiento">
-            <h1 class="titulo">Panaderia y Pasteleria INK</h1> 
-        </a>
-            <nav class="menu">
-                <li class="solapa"> <a href="./page/novedades.html">Novedades</a></li>
-                <li class="solapa"> <a href="./page/eventos.html">Eventos </a></li>
-                <li class="solapa"> <a href="./page/galeria.html">Galeria</a></li>
-                <li class="solapa"> <a href="./page/cursos.html">Cursos</a></li>
-                <li class="solapa"> <a href="./page/contacto.html">Contacto</a></li>
-            </nav>
-    </header> 
+        <!--menu-->
+        <div class=" container-fluid">
+            <nav class="navbar navbar-expand-lg bg-light-container">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"> INK Panaderia y Pasteleria</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./page/cursos.html">Cursos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./page/preguntas.html">Preguntas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./page/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+        </div>
+            <!--fin del Menu-->
+    </header>
+ 
     <main>
-        <section> 
+        <section class="elprinci"> 
             <br>
             <br>
             <p>Nuestro Emprendimiento crecio con mucho amor y pasion, somos una empresa familiar que nos dedicamos a la Gastronomia y no especializamos
@@ -71,23 +90,26 @@
                   <h3>Mi Maestro</h3>
               </div>
           </div>
-      </div>
+        </div>
 
         <!--fin de Imagenes-->
         <section class="antepie">
         <h3 class="nombrepie">Panaderia y Pasteleria INK</h3>
         <div class="pie1">
-            <h3 class="pieten">Guemes 1045, San Miguel</h3>
-            <h3 class="pieten">Tel: 11-6559-4349</h3>
-            <h3 class="pieten">Horarios de atencion de 10AM a 20PM</h3>
+            <h3 class="h6">Guemes 1045, San Miguel</h3>
+            <h3 class="h6">Tel: 11-6559-4349</h3>
+            <h3 class="h6">Horarios de atencion de 10AM a 20PM</h3>
         </div>
-        <br>
         </section>
     </main>
     <footer>
             <div class="fondo">
-                INK Panaderia y Pasteleria | Todos los derechos reservados @ 2022
-            </div>    
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>INK Panaderia y Pasteleria | Todos los derechos reservados @ 2022</p>
+                </blockquote>
+            </figure>
+            </div>  
     </footer>
     <script src="./bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
 </body>
